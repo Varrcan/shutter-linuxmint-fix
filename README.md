@@ -11,7 +11,7 @@ If you try to upload file via FTP, but the link to the website is not copied to 
 #### Bug Fix:
 1. Open terminal and paste
 
-	`wget --no-check-certificate https://raw.githubusercontent.com/Varrcan/shutter-linuxmint-fix/master/shutter && sudo mv shutter /usr/bin/shutter`
+	`wget --no-check-certificate https://raw.githubusercontent.com/Varrcan/shutter-linuxmint-fix/master/shutter && sudo mv shutter /usr/bin/shutter && sudo chmod +x /usr/bin/shutter`
 	
 2. Enter root password
 3. Done!
